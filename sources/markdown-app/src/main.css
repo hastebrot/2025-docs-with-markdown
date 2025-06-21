@@ -1,7 +1,28 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
 @import "@fontsource/inter/latin-400.css";
 @import "@fontsource/inter/latin-700.css";
 
 @theme {
   --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  :root:has([data-theme="dark"]) {
+    --bg-base: rgba(33, 33, 36, 1);
+    --border-base: rgba(255, 255, 255, 0.08);
+    --fg-base: rgba(244, 244, 245, 1);
+  }
+  :root:has([data-theme="light"]) {
+    --bg-base: rgba(255, 255, 255, 1);
+    --border-base: rgba(228, 228, 231, 1);
+    --fg-base: rgba(24, 24, 27, 1);
+  }
+  :root {
+    background-color: var(--bg-base);
+    border-color: var(--border-base);
+    color: var(--fg-base);
+    scrollbar-color: var(--border-base) var(--bg-base);
+  }
 }
