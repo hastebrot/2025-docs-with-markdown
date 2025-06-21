@@ -1,9 +1,9 @@
-# 2025-docs-with-markdown
+# 2025-markdocs
 
 **usage:**
 
-- `❯ git clone https://github.com/hastebrot/2025-docs-with-markdown`
-- `❯ cd 2025-docs-with-markdown/packages/markdown-app`
+- `❯ git clone https://github.com/hastebrot/2025-markdocs`
+- `❯ cd 2025-markdocs/packages/markdown-app`
 - `❯ bun install`
 - `❯ bun run dev:debug --port 3000`
 - `❯ bun run build`

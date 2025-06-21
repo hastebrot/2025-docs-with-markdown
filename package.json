@@ -1,7 +1,10 @@
 {
-  "name": "2025-docs-with-markdown",
+  "name": "2025-markdocs",
   "private": true,
   "workspaces": [
     "sources/*"
-  ]
+  ],
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
 }
