@@ -15,7 +15,6 @@ export default defineConfig({
     },
   ],
   build: {
-    target: "esnext",
     sourcemap: false,
     minify: true,
     reportCompressedSize: true,
