@@ -1,0 +1,7 @@
+{
+  "name": "2025-docs-with-markdown",
+  "private": true,
+  "workspaces": [
+    "sources/*"
+  ]
+}
